@@ -80,7 +80,7 @@ gnatmake 3.ada
 
 ## 4-Funções
 
-- Funções devem ser feitas em módulos. No exemplo “4ex.ada” se utiliza a função “ispar.com”, lembre-se de compilar!
+- Funções devem ser feitas em módulos. No exemplo “4ex.ada” se utiliza a função “ispar.adb”, lembre-se de compilar!
 
 ```bash
 gnatmake ispar.adb
