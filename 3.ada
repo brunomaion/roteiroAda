@@ -16,22 +16,18 @@ begin
       New_Line;
 
       -- Verifica se o número é positivo, negativo ou zero
-      if numero > 0 then
-         Put_Line("O número é positivo.");
-      elsif numero < 0 then
-         Put_Line("O número é negativo.");
-      else
-         Put_Line("O número é zero.");
-      end if;
+
+
+
 
       -- Executa um loop para exibir a contagem regressiva a partir do número digitado
       Put_Line("Contagem regressiva:");
 
-      contador := numero;
+
 
       while contador > 0 loop
          Put(contador'Image & " ");
-         contador := contador - 1;
+
       end loop;
       New_Line;
    end;

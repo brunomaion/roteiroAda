@@ -17,25 +17,20 @@ procedure exemplo_Funcao is
 begin
    Put("Qual sua nota? ");
 
-   Get(Numero);
+
+
    New_Line;
 
    Put("Qual sua frequencia (%)? ");
 
-   Get(numero2);
+
+
    New_Line;
 
 
    resultadoNota := Nota(numero);
    resultadoFreq := Faltas(numero2);
 
-   if resultadoNota then
-      if resultadoFreq then
-          Put_Line("Voce foi aprovado!");
-      else
-          Put_Line("Você fo reprovado!");
-      end if;
-   else
-      Put_Line("Você foi reprovado!");
-   end if;
+
+
 end exemplo_Funcao;
